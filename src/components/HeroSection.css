@@ -1,0 +1,68 @@
+image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+headshot{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 10px;
+    background: url('headshot.png') center center/cover no-repeat;
+}
+
+.hero-container{
+    background: url('background_.png') center center/cover
+    no-repeat; 
+    /* background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
+    /* background-color: blue; */
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 10px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+p1{
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    gap: 10px 10px;
+    width: 100%;
+    height: 200 px;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+}
+group{
+    padding: 10px 10px;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    opacity: 75%;
+    color: #242424;
+    display: flex;
+    gap: 10px 30px;
+    gap: 30px;
+
+}
+
+section{
+    display: flex;
+    flex-flow: column;
+    /* justify-content:flex-end; */
+    resize: contain;
+
+}
